@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Shahrewan — UNIMAS student portfolio in game development, digital art, animation, web design, programming, and data management.">
+  <title>Shahrewan — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Shahrewan, home">
+        <span class="brand-mark" aria-hidden="true">S<span>.</span></span>
+        <span class="brand-name">SHAHREWAN</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#work">Work</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 15.4A8.6 8.6 0 0 1 8.6 3.3 8.7 8.7 0 1 0 20.7 15.4Z"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <div class="accent-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+  </header>
+
+  <main id="main">
+    <section class="hero section shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-topline">
+        <span>PORTFOLIO / 2026</span>
+        <span>UNIMAS <i aria-hidden="true">/</i> MATRIC NO. 102457</span>
+      </div>
+
+      <div class="hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">DESIGN <span class="accent-red">/</span> DEVELOPMENT <span class="accent-green">/</span> DIGITAL MEDIA <span class="accent-blue">/</span></p>
+          <h1 id="hero-title">Shahrewan<span class="title-period">.</span></h1>
+          <p class="hero-subtitle">Student at Universiti Malaysia Sarawak (UNIMAS).</p>
+          <p class="hero-intro">Game design and development, digital illustration, graphic design, animation, web design, programming, and data management.</p>
+          <div class="hero-facts" aria-label="Portfolio details">
+            <div><span class="fact-label">INSTITUTION</span><strong>UNIMAS</strong></div>
+            <div><span class="fact-label">MATRIC NUMBER</span><strong>102457</strong></div>
+          </div>
+          <a class="text-link" href="#work">View work <span aria-hidden="true">↘</span></a>
+        </div>
+
+        <section class="showcase reveal" aria-label="Featured work slideshow" aria-roledescription="carousel">
+          <div class="showcase-head">
+            <span class="eyebrow">SELECTED WORK</span>
+            <span class="showcase-counter"><span id="slide-current">01</span> <span class="counter-divider">/</span> <span id="slide-total">06</span></span>
+          </div>
+
+          <div class="showcase-viewport" id="showcase-viewport">
+            <article class="showcase-slide is-active" data-slide="0" aria-label="1 of 6: Game Design and Development">
+              <img src="assets/work/work-01-game-development.svg" alt="Placeholder image for game design and development work">
+              <div class="slide-caption"><div><span>01 / GAME DEVELOPMENT</span><h2>Game Design &amp; Development</h2></div><a href="#work" aria-label="View game design and development work">↗</a></div>
+            </article>
+            <article class="showcase-slide" data-slide="1" aria-label="2 of 6: Digital Illustration" hidden>
+              <img src="assets/work/work-02-illustration.svg" alt="Placeholder image for digital illustration work">
+              <div class="slide-caption"><div><span>02 / DIGITAL ART</span><h2>Digital Illustration</h2></div><a href="#work" aria-label="View digital illustration work">↗</a></div>
+            </article>
+            <article class="showcase-slide" data-slide="2" aria-label="3 of 6: Graphic Design" hidden>
+              <img src="assets/work/work-03-graphic-design.svg" alt="Placeholder image for graphic design work">
+              <div class="slide-caption"><div><span>03 / VISUAL DESIGN</span><h2>Graphic Design</h2></div><a href="#work" aria-label="View graphic design work">↗</a></div>
+            </article>
+            <article class="showcase-slide" data-slide="3" aria-label="4 of 6: Animation" hidden>
+              <img src="assets/work/work-04-animation.svg" alt="Placeholder image for character, prop, acting, UI, and writing animation designs">
+              <div class="slide-caption"><div><span>04 / ANIMATION</span><h2>Character, Prop &amp; UI</h2></div><a href="#work" aria-label="View animation work">↗</a></div>
+            </article>
+            <article class="showcase-slide" data-slide="4" aria-label="5 of 6: Web Design" hidden>
+              <img src="assets/work/work-05-web-design.svg" alt="Placeholder image for web design work">
+              <div class="slide-caption"><div><span>05 / WEB</span><h2>Web Design</h2></div><a href="#work" aria-label="View web design work">↗</a></div>
+            </article>
+            <article class="showcase-slide" data-slide="5" aria-label="6 of 6: Programming and Data" hidden>
+              <img src="assets/work/work-06-code-data.svg" alt="Placeholder image for programming and data management work">
+              <div class="slide-caption"><div><span>06 / CODE &amp; DATA</span><h2>Programming &amp; Data</h2></div><a href="#work" aria-label="View programming and data work">↗</a></div>
+            </article>
+          </div>
+
+          <div class="showcase-controls">
+            <div class="slide-dots" role="group" aria-label="Choose featured work slide">
+              <button type="button" class="slide-dot active" data-slide-to="0" aria-label="Show slide 1" aria-current="true"></button>
+              <button type="button" class="slide-dot" data-slide-to="1" aria-label="Show slide 2"></button>
+              <button type="button" class="slide-dot" data-slide-to="2" aria-label="Show slide 3"></button>
+              <button type="button" class="slide-dot" data-slide-to="3" aria-label="Show slide 4"></button>
+              <button type="button" class="slide-dot" data-slide-to="4" aria-label="Show slide 5"></button>
+              <button type="button" class="slide-dot" data-slide-to="5" aria-label="Show slide 6"></button>
+            </div>
+            <div class="slide-arrows">
+              <button class="slide-arrow" type="button" data-slide-step="-1" aria-label="Previous slide">←</button>
+              <button class="slide-arrow" type="button" data-slide-step="1" aria-label="Next slide">→</button>
+            </div>
+          </div>
+          <p class="sr-only" id="slide-status" aria-live="polite">Slide 1 of 6: Game Design and Development</p>
+        </section>
+      </div>
+      <a class="scroll-cue" href="#work"><span class="scroll-line"></span> SCROLL TO WORK</a>
+    </section>
+
+    <section class="work-section section shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">01 / WORK</p>
+          <h2 id="work-title">Portfolio <span class="headline-accent">categories.</span></h2>
+        </div>
+        <p class="section-note">Replace each placeholder image with an example of your work.</p>
+      </div>
+
+      <div class="project-toolbar reveal">
+        <div class="filter-group" role="group" aria-label="Filter work by category">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="game" aria-pressed="false">Game development</button>
+          <button class="filter-button" type="button" data-filter="visual" aria-pressed="false">Visual design</button>
+          <button class="filter-button" type="button" data-filter="animation" aria-pressed="false">Animation</button>
+          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web design</button>
+          <button class="filter-button" type="button" data-filter="code" aria-pressed="false">Code &amp; data</button>
+        </div>
+        <p class="project-count" id="project-count" aria-live="polite">Showing 6 categories</p>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+        <article class="project-card reveal" data-category="game">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about game design and development">
+            <img src="assets/work/work-01-game-development.svg" alt="Placeholder for a game design or development work sample">
+            <span class="image-index">01</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">GAME DESIGN &amp; DEVELOPMENT</p><h3>Game Projects</h3></div><span class="project-number">01</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="visual">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about digital illustration">
+            <img src="assets/work/work-02-illustration.svg" alt="Placeholder for a digital illustration work sample">
+            <span class="image-index">02</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">DIGITAL ART</p><h3>Digital Illustration</h3></div><span class="project-number">02</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="visual">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about graphic design">
+            <img src="assets/work/work-03-graphic-design.svg" alt="Placeholder for a graphic design work sample">
+            <span class="image-index">03</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">VISUAL DESIGN</p><h3>Graphic Design</h3></div><span class="project-number">03</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="animation">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about animation design">
+            <img src="assets/work/work-04-animation.svg" alt="Placeholder for character, prop, acting, UI, or writing design work">
+            <span class="image-index">04</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">CHARACTER / PROP / ACTING / UI / WRITING</p><h3>Animation &amp; Design</h3></div><span class="project-number">04</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about web design">
+            <img src="assets/work/work-05-web-design.svg" alt="Placeholder for a web design work sample">
+            <span class="image-index">05</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">WEB DESIGN</p><h3>Web Projects</h3></div><span class="project-number">05</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="code">
+          <a class="project-image" href="#contact" aria-label="Contact Shahrewan about programming and data management">
+            <img src="assets/work/work-06-code-data.svg" alt="Placeholder for code or database work sample">
+            <span class="image-index">06</span><span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info"><div><p class="project-type">PROGRAMMING / DATA MANAGEMENT</p><h3>Code &amp; Data Projects</h3><p class="project-detail">C++ · Java · C · MariaDB SQL</p></div><span class="project-number">06</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="shell about-layout">
+        <div class="about-heading reveal">
+          <p class="eyebrow">02 / ABOUT</p>
+          <h2 id="about-title">Profile<span class="headline-accent">.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <dl class="profile-list">
+            <div><dt>Name</dt><dd>Shahrewan</dd></div>
+            <div><dt>Matric number</dt><dd>102457</dd></div>
+            <div><dt>Institution</dt><dd>Universiti Malaysia Sarawak (UNIMAS)</dd></div>
+          </dl>
+          <div class="skills-block">
+            <h3>AREAS OF EXPERIENCE</h3>
+            <div class="skill-tags">
+              <span>Game Design &amp; Development</span>
+              <span>Digital Illustration</span>
+              <span>Graphic Design</span>
+              <span>Animation</span>
+              <span>Character &amp; Prop Design</span>
+              <span>Acting Design</span>
+              <span>UI Design</span>
+              <span>Writing Design</span>
+              <span>Web Design</span>
+              <span>C++</span>
+              <span>Java</span>
+              <span>C</span>
+              <span>MariaDB SQL</span>
+              <span>Data Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section shell" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">03 / CONTACT</p>
+          <h2 id="contact-title">Email<span class="headline-accent">.</span></h2>
+        </div>
+        <div class="contact-email-row">
+          <a href="mailto:102457@unimas.siswa.my" id="email-link">102457@unimas.siswa.my</a>
+          <button class="copy-button" id="copy-email" type="button" aria-label="Copy email address" title="Copy email address">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg>
+          </button>
+          <span class="copy-status" id="copy-status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">S<span>.</span></span><span class="brand-name">SHAHREWAN</span></a>
+      <p>UNIMAS <span aria-hidden="true">/</span> MATRIC NO. 102457</p>
+      <div class="footer-right"><span>© <span id="year">2026</span></span><a href="#top">Back to top ↑</a></div>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
